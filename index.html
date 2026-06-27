@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>ThalaCare India — Thalassemia Awareness Portal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="shared.css"/>
+<link rel="stylesheet" href="home.css"/>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <div class="logo-icon">
+        <svg width="16" height="20" viewBox="0 0 16 20" fill="none"><path d="M8 0C5 0 3 2 3 5C3 7 4 8.5 5.5 9.5L3 20H13L10.5 9.5C12 8.5 13 7 13 5C13 2 11 0 8 0Z" fill="white" opacity="0.9"/><path d="M6 14H10L9 20H7L6 14Z" fill="white" opacity="0.5"/></svg>
+      </div>
+      <div>
+        <div class="logo-text">ThalaCare India</div>
+        <div class="logo-sub">Awareness · Testing · Support</div>
+      </div>
+    </a>
+    <button class="nav-hamburger" id="hamburger" aria-label="Open menu">&#9776;</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="thalassemia.html">Thalassemia</a></li>
+      <li><a href="camps.html">Camps</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="register.html" class="nav-cta">Register for Camp</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <svg class="hero-ribbon" viewBox="0 0 300 300" fill="none" aria-hidden="true"><path d="M150 20C80 20 30 70 30 140C30 185 55 225 90 250L150 280L210 250C245 225 270 185 270 140C270 70 220 20 150 20Z" fill="white"/><path d="M120 200L150 280L180 200" fill="white"/></svg>
+  <div class="hero-inner">
+    <div class="hero-eyebrow"><span class="ribbon-dot"></span> Thalassemia Awareness Portal</div>
+    <h1>Know before you say<br><em>I do</em> — for your child's future</h1>
+    <p class="hero-desc">Thalassemia is an inherited blood disorder. A simple test before marriage can determine your child's risk. We're here to help you understand, get tested, and make informed decisions.</p>
+    <div class="hero-actions">
+      <a href="camps.html" class="btn btn-primary">Find a Camp Near You</a>
+      <a href="thalassemia.html" class="btn btn-outline-light">Learn About Thalassemia</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><div class="stat-num">1 in 8</div><div class="stat-label">Indians carries the trait</div></div>
+      <div class="stat"><div class="stat-num">10,000+</div><div class="stat-label">Affected children born yearly</div></div>
+      <div class="stat"><div class="stat-num">100%</div><div class="stat-label">Preventable with testing</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT IS -->
+<section class="section bg-white">
+  <div class="container">
+    <div class="section-eyebrow">Understanding the Condition</div>
+    <h2 class="section-title">What is Thalassemia?</h2>
+    <p class="section-lead">Thalassemia is a genetic blood disorder where the body makes abnormal or insufficient haemoglobin. People can carry the gene without any symptoms — but two carriers having a child face serious risks. A simple pre-marital blood test reveals your status in minutes.</p>
+    <div class="card-grid three">
+      <div class="info-card teal">
+        <div class="info-card-icon">&#9679;</div>
+        <h3>Thalassemia Minor</h3>
+        <p>One abnormal gene inherited. The person lives a healthy, normal life but can pass the gene to children. No treatment needed — but knowing matters enormously before marriage.</p>
+      </div>
+      <div class="info-card red">
+        <div class="info-card-icon">&#9679;</div>
+        <h3>Thalassemia Major</h3>
+        <p>Both parents pass the defective gene. The child requires blood transfusions every 2–4 weeks for life. Severe anaemia, organ damage, and a significantly reduced quality of life.</p>
+      </div>
+      <div class="info-card purple">
+        <div class="info-card-icon">&#9679;</div>
+        <h3>Thalassemia Intermedia</h3>
+        <p>A moderate form between minor and major. May need occasional transfusions. Symptoms vary widely depending on the specific gene mutation inherited from each parent.</p>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:2rem;">
+      <a href="thalassemia.html" class="btn btn-teal">Read Full Guide to Thalassemia &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- RISK TABLE -->
+<section class="section bg-teal-light">
+  <div class="container">
+    <div class="section-eyebrow">Pre-marital Awareness</div>
+    <h2 class="section-title">What does it mean for your child?</h2>
+    <p class="section-lead">If both partners are carriers, there is a 25% chance with every pregnancy that the child will have Thalassemia Major. Understanding your risk before marriage empowers you to make informed decisions.</p>
+    <div class="table-wrap">
+      <table class="risk-table">
+        <thead><tr><th>Partner 1</th><th>Partner 2</th><th>Child Risk</th><th>Risk Level</th></tr></thead>
+        <tbody>
+          <tr><td>Normal</td><td>Normal</td><td>All children will be normal</td><td><span class="badge badge-green">No Risk</span></td></tr>
+          <tr><td>Normal</td><td>Carrier (Minor)</td><td>50% chance child is a carrier — none will have Major</td><td><span class="badge badge-yellow">Low</span></td></tr>
+          <tr><td>Carrier (Minor)</td><td>Carrier (Minor)</td><td>25% chance of Thalassemia Major with each pregnancy</td><td><span class="badge badge-red">High</span></td></tr>
+          <tr><td>Carrier (Minor)</td><td>Thalassemia Major</td><td>50% chance of Major, 50% chance of carrier</td><td><span class="badge badge-red">Very High</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div style="text-align:center;margin-top:2rem;">
+      <a href="register.html" class="btn btn-primary">Get Tested Free at a Camp &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- UPCOMING CAMPS PREVIEW -->
+<section class="section bg-white">
+  <div class="container">
+    <div class="section-eyebrow">Upcoming Screening Camps</div>
+    <h2 class="section-title">Free testing camps near you</h2>
+    <p class="section-lead">We organise free Thalassemia screening camps across the region. A simple blood test (CBC + HPLC) is all it takes to know your carrier status.</p>
+    <div class="card-grid three">
+      <div class="camp-card">
+        <div class="camp-header" style="background:var(--teal)">
+          <div class="camp-date">15 July 2025 &middot; 9:00 AM – 3:00 PM</div>
+          <div class="camp-title">Pune City Screening Camp</div>
+        </div>
+        <div class="camp-body">
+          <div class="camp-detail"><span class="ci">&#128205;</span> Tilak Smarak Mandir, Tilak Road, Pune</div>
+          <div class="camp-detail"><span class="ci">&#129514;</span> CBC · HPLC · Counselling</div>
+          <div class="camp-detail"><span class="ci">&#128101;</span> Open to all</div>
+        </div>
+        <div class="camp-footer"><span class="spots">200 spots open</span><a href="register.html" class="btn btn-sm btn-primary">Register Free</a></div>
+      </div>
+      <div class="camp-card">
+        <div class="camp-header" style="background:var(--teal-dark)">
+          <div class="camp-date">28 July 2025 &middot; 10:00 AM – 2:00 PM</div>
+          <div class="camp-title">Pimpri-Chinchwad Awareness Drive</div>
+        </div>
+        <div class="camp-body">
+          <div class="camp-detail"><span class="ci">&#128205;</span> PCMC Community Hall, Sector 23</div>
+          <div class="camp-detail"><span class="ci">&#129514;</span> CBC · HPLC · Genetic Counselling</div>
+          <div class="camp-detail"><span class="ci">&#128101;</span> Pre-marital couples focus</div>
+        </div>
+        <div class="camp-footer"><span class="spots">150 spots open</span><a href="register.html" class="btn btn-sm btn-primary">Register Free</a></div>
+      </div>
+      <div class="camp-card">
+        <div class="camp-header" style="background:#6C3483">
+          <div class="camp-date">10 Aug 2025 &middot; 9:00 AM – 1:00 PM</div>
+          <div class="camp-title">College Campus Drive — SPPU</div>
+        </div>
+        <div class="camp-body">
+          <div class="camp-detail"><span class="ci">&#128205;</span> Savitribai Phule Pune University, Gate 2</div>
+          <div class="camp-detail"><span class="ci">&#129514;</span> CBC · Awareness Session</div>
+          <div class="camp-detail"><span class="ci">&#128101;</span> Students & young adults</div>
+        </div>
+        <div class="camp-footer"><span class="spots">350 spots open</span><a href="register.html" class="btn btn-sm btn-primary">Register Free</a></div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:2rem;"><a href="camps.html" class="btn btn-teal">View All Camps &rarr;</a></div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section class="cta-banner">
+  <h2>Get tested. It takes 15 minutes.</h2>
+  <p>A simple blood test is all it takes to know your Thalassemia carrier status. Free at all our camps. Take the step — for you, and for your future children.</p>
+  <div class="cta-actions">
+    <a href="camps.html" class="btn btn-primary">Find a Camp</a>
+    <a href="about.html" class="btn btn-outline-light">Learn About Us</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand-col">
+      <div class="footer-brand">ThalaCare India</div>
+      <p class="footer-desc">A non-profit organisation dedicated to Thalassemia prevention, awareness, and patient support across India. All screening, counselling, and community services are provided free of charge.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Organisation</h5>
+      <ul><li><a href="about.html">About Us</a></li><li><a href="about.html#vision">Vision &amp; Mission</a></li><li><a href="about.html#team">Our Team</a></li><li><a href="projects.html">Projects</a></li></ul>
+    </div>
+    <div class="footer-col">
+      <h5>Get Involved</h5>
+      <ul><li><a href="camps.html">Screening Camps</a></li><li><a href="register.html">Register for Camp</a></li><li><a href="events.html">Events</a></li><li><a href="about.html#contact">Contact Us</a></li></ul>
+    </div>
+  </div>
+  <div class="footer-copy">&copy; 2025 ThalaCare India &middot; All rights reserved &middot; Registered NGO under Section 12A</div>
+</footer>
+
+<script src="shared.js"></script>
+</body>
+</html>
